@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Calculadora from './componentes/Calculadora';
+import Contador from './componentes/Contador';
+import Camara from './componentes/Camara';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Calculadora/>
+    <Contador/>
+    <Camara/>
   </React.StrictMode>
 );
 
